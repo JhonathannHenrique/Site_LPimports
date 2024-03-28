@@ -1,0 +1,280 @@
+﻿@{
+    ViewData["Title"] = "LP IMPORTS";
+}
+
+<ul class="nav nav-tabs">
+
+    <div class="navbar-header">
+        <a class="navbar-brand" href="~/Painel/Index" style="padding:5px">
+            <img width="90" height="40" alt="" src="/image/LogoLPgrande.jpeg" />
+        </a>
+    </div>
+
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" asp-action="Index">Melhores Ofertas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-action="Privacy">Smartphones</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-action="Sobre">Sobre</a>
+    </li>
+
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="O que você esta buscando?" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </form>
+</ul>
+
+
+    <div id="carouselOfertas" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/image/CapaCarrousel.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/image/CapaCarrousel.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="~/image/CapaCarrousel.jpeg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div>
+       
+        <h1 class="texto-principal" > O melhor da LP para você </h1>
+    <h4 class="texto-principal" >Tudo que precisa, você so encontra aqui</h4>
+
+    </div>
+
+
+
+    <table class="table">
+        <tr>
+            <td>
+    <div class="container">
+    <div class="product">
+        <div class="image">
+            <img class="product-image" src="~/image/Flip6Azul.jpeg" alt="">
+        </div>
+        <div class="color">
+            <span class="orange active" data-image="..." ></span>
+            <span class="green" data-image="..."></span>
+            <span class="black" data-image="..." ></span>
+            <span class="red" data-image="..." ></span>
+        </div>
+        <div class="title">
+            JBL Flip 6 Azul
+        </div>
+        <div class="detail">
+            <p>Preço : <span>$699</span></p>
+            <a href="#">Comprar</a>
+        </div>
+    </div>
+    </div>
+        </td>
+
+        <td>
+    <div class="container">
+        <div class="product">
+        <div class="image">
+            <img class="product-image" src="~/image/Flip6Branca.jpeg" alt="">
+        </div>
+        <div class="color">
+            <span class="orange active" data-image="..."></span>
+            <span class="green" data-image="..."></span>
+            <span class="black" data-image="..."></span>
+            <span class="red" data-image="..."></span>
+        </div>
+        <div class="title">
+            JBL Flip 6 Branca
+        </div>
+        <div class="detail">
+            <p>Preço : <span>$699</span></p>
+            <a href="#">Comprar</a>
+        </div>
+    </div>
+    </div>
+        </td>
+ 
+        <td>
+    <div class="container">
+     <div class="product">
+        <div class="image">
+            <img class="product-image" src="~/image/FoneJBLPreto.jpeg" alt="">
+        </div>
+        <div class="color">
+            <span class="orange active" data-image="..."></span>
+            <span class="green" data-image="..."></span>
+            <span class="black" data-image="..."></span>
+            <span class="red" data-image="..."></span>
+        </div>
+        <div class="title">
+            Fone JBL Preto
+        </div>
+        <div class="detail">
+            <p>Preço : <span>$399</span></p>
+            <a href="#">Comprar</a>
+        </div>
+    </div>
+
+
+        <td>
+            <div class="container">
+                <div class="product">
+                    <div class="image">
+                        <img class="product-image" src="~/image/FoneJBLPreto.jpeg" alt="">
+                    </div>
+                    <div class="color">
+                        <span class="orange active" data-image="..."></span>
+                        <span class="green" data-image="..."></span>
+                        <span class="black" data-image="..."></span>
+                        <span class="red" data-image="..."></span>
+                    </div>
+                    <div class="title">
+                        Fone JBL Preto
+                    </div>
+                    <div class="detail">
+                        <p>Preço : <span>$399</span></p>
+                        <a href="#">Comprar</a>
+                    </div>
+                </div>
+    </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="container">
+                <div class="product">
+                    <div class="image">
+                        <img class="product-image" src="~/image/FoneJBLrosa.jpeg" alt="">
+                    </div>
+                    <div class="color">
+                        <span class="orange active" data-image="..."></span>
+                        <span class="green" data-image="..."></span>
+                        <span class="black" data-image="..."></span>
+                        <span class="red" data-image="..."></span>
+                    </div>
+                    <div class="title">
+                        Fone JBL Rosa claro 
+                    </div>
+                    <div class="detail">
+                        <p>Preço : <span>$399</span></p>
+                        <a href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="container">
+                <div class="product">
+                    <div class="image">
+                        <img class="product-image" src="~/image/JBLgoAzul.jpeg" alt="">
+                    </div>
+                    <div class="color">
+                        <span class="orange active" data-image="..."></span>
+                        <span class="green" data-image="..."></span>
+                        <span class="black" data-image="..."></span>
+                        <span class="red" data-image="..."></span>
+                    </div>
+                    <div class="title">
+                        JBL Go Azul
+                    </div>
+                    <div class="detail">
+                        <p>Preço : <span>$349</span></p>
+                        <a href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="container">
+                <div class="product">
+                    <div class="image">
+                        <img class="product-image" src="~/image/JBLgoPreta.jpeg" alt="">
+                    </div>
+                   <div class="color">
+                        <span class="orange active" data-image="..."></span>
+                        <span class="green" data-image="..."></span>
+                        <span class="black" data-image="..."></span>
+                        <span class="red" data-image="..."></span>
+                    </div>
+                    <div class="title">
+                        JBL Go Preta
+                    </div>
+                    <div class="detail">
+                        <p>Preço : <span>$349</span></p>
+                        <a href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="container">
+                <div class="product">
+                    <div class="image">
+                        <img class="product-image" src="~/image/JBLgoPreta.jpeg" alt="">
+                    </div>
+                    <div class="color">
+                        <span class="orange active" data-image="..."></span>
+                        <span class="green" data-image="..."></span>
+                        <span class="black" data-image="..."></span>
+                        <span class="red" data-image="..."></span>
+                    </div>
+                    <div class="title">
+                        JBL Go Preta
+                    </div>
+                    <div class="detail">
+                        <p>Preço : <span>$349</span></p>
+                        <a href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+</table>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(".color span").click(function(){
+
+     $(".color span").removeClass("active");
+     $(this).addClass("active");
+     $(".detail span").css("color",$(this).attr("data-color"));
+     $(".detail a").css("background",$(this).attr("data-color"));
+     $(".product-image").attr("src",$(this).attr("data-image"));
+     $("body").css("background",$(this).attr("data-color"));
+    });
+</script>
+
